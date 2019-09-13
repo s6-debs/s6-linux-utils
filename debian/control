@@ -1,0 +1,25 @@
+Source: s6-linux-utils
+Section: admin
+Priority: optional
+Maintainer: multiplexd <multi@in-addr.xyz>
+Uploaders: multiplexd <multi@in-addr.xyz>
+Build-Depends: debhelper (>= 10), quilt, libskarnet-dev (>= 2.8.0.0)
+Standards-Version: 3.9.8
+Homepage: https://skarnet.org/software/s6-linux-utils/
+
+Package: s6-linux-utils
+Architecture: any
+Section: utils
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Tiny Linux-specific utilities
+ s6-linux-utils is a set of minimalistic Linux-specific system utilities.
+
+Package: s6-linux-utils-dev
+Architecture: any
+Multi-Arch: same
+Section: devel
+Depends: ${misc:Depends}
+Description: Tiny Linux-specific utilities (development files)
+ s6-linux-utils is a set of minimalistic Linux-specific system utilities.
+ .
+ This package contains the s6-linux-utils development files.
