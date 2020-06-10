@@ -1,3 +1,9 @@
+s6-linux-utils (2.5.1.2-2) stable; urgency=low
+
+  * Metadata and source package fixes.
+
+ -- multiplexd <multi@in-addr.xyz>  Wed, 10 Jun 2020 21:15:55 +0100
+
 s6-linux-utils (2.5.1.2-1) stable; urgency=medium
 
   * New upstream version.
